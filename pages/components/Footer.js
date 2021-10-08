@@ -53,6 +53,7 @@ export default function Footer() {
               href={x.link}
               target="_blank"
               className="scale-150 hover:text-image-color-1"
+              key={i}
             >
               {x.icon}
             </a>
