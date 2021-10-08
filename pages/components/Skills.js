@@ -1,14 +1,10 @@
 import React from "react";
-import {
-  CircularProgressbarWithChildren,
-  CircularProgressbar,
-  buildStyles,
-} from "react-circular-progressbar";
+import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import ChangingProgressProvider from "./ChangingProgressProvider";
 
 export default function Skills() {
   return (
-    <div className="flex md:flex-row flex-col justify-center">
+    <div className="flex  md:flex-row flex-col justify-center items-center p-8">
       <Example description="HTML">
         <ChangingProgressProvider values={[0, 50]}>
           {(value) => (
@@ -33,7 +29,7 @@ export default function Skills() {
           {(value) => (
             <CircularProgressbar
               value={value}
-              text={`${value} %`}
+              text={`${value}  %`}
               styles={buildStyles({
                 strokeLinecap: "butt",
                 pathColor: "#fb5b0f",
@@ -52,8 +48,8 @@ export default function Skills() {
 
 function Example(props) {
   return (
-    <div className="bg-background-aboutme p-4">
-      <div className="flex flex-col items-center ">
+    <div className="bg-background-aboutme flex flex-row md:flex-col justify-between w-full p-4 md:w-[1130px]">
+      <div className="flex flex-col items-center">
         <div className="w-[150px] ">{props.children}</div>
         <div className="pt-4">
           <h3 className="h5">{props.label}</h3>
