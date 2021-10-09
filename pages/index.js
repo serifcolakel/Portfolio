@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import Home from "../components/Home";
 import Head from "next/head";
 import ContactMe from "./../components/ContactMe";
+import Skills from "./../components/Skills";
 
 export default function Main() {
   return (
@@ -12,6 +13,7 @@ export default function Main() {
       </Head>
       <Header />
       <Home />
+      <Skills />
       <ContactMe />
       <Footer />
     </>

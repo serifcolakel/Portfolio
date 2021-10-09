@@ -1,62 +1,74 @@
 const data = [
   {
+    id: "1",
     url: "https://seeklogo.com/images/J/javascript-js-logo-2949701702-seeklogo.com.png",
     description: "",
     title: "JavaScript",
   },
   {
+    id: "2",
     url: "https://seeklogo.com/images/C/css3-logo-8724075274-seeklogo.com.png",
     description: "",
     title: "CSS",
   },
   {
+    id: "3",
     url: "https://seeklogo.com/images/H/html5-logo-EF92D240D7-seeklogo.com.png",
     description: "",
     title: "HTML",
   },
 
   {
+    id: "4",
     url: "https://seeklogo.com/images/B/bootstrap-logo-3C30FB2A16-seeklogo.com.png",
     description: "",
     title: "Bootstrap",
   },
   {
+    id: "5",
     url: "https://seeklogo.com/images/M/material-ui-logo-5BDCB9BA8F-seeklogo.com.png",
     description: "",
     title: "Material UI",
   },
   {
+    id: "6",
     url: "https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png",
     description: "",
     title: "Tailwind CSS",
   },
   {
+    id: "7",
     url: "https://seeklogo.com/images/R/react-logo-7B3CE81517-seeklogo.com.png",
     description: "",
     title: "React JS",
   },
   {
+    id: "8",
     url: "https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png",
     description: "",
     title: "Next JS",
   },
 
   {
+    id: "9",
     url: "https://seeklogo.com/images/G/github-logo-5F384D0265-seeklogo.com.png",
     description: "",
     title: "GitHub",
   },
   {
+    id: "10",
     url: "https://seeklogo.com/images/M/matlab-logo-AE6C96A5DD-seeklogo.com.png",
     description: "",
     title: "MatLab",
   },
   {
+    id: "11",
     url: "https://seeklogo.com/images/P/python-logo-A32636CAA3-seeklogo.com.png",
     description: "",
     title: "Pyton",
   },
   {
+    id: "12",
     url: "https://seeklogo.com/images/C/c-logo-1B1817C041-seeklogo.com.png",
     description: "",
     title: "C++",
@@ -84,9 +96,9 @@ export default function Skills() {
         </p>
       </div>
       <div className="grid md:grid-cols-4 grid-cols-2 gap-8 ">
-        {data.map((x, i) => (
+        {data.map((x) => (
           <div
-            key={i}
+            key={x.id}
             className="flex flex-col  items-center justify-center bg-primary-white rounded-xl p-4  "
           >
             <img
