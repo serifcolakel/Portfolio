@@ -39,7 +39,7 @@ const link = [
     icon: <GrMail />,
   },
   {
-    link: "tel:+905398568303",
+    link: "tel:555",
     icon: <FaPhoneSquareAlt />,
   },
 ];

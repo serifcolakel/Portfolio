@@ -24,10 +24,9 @@ export default function Home() {
             </strong>
           </h2>
           <p>
-            I am a newly graduated electrical and electronics engineer. At the
-            same time, I am developing myself on the front end. I am a computer
-            engineer student related to technology. I won the new master's
-            program. I continue to improve myself.
+            I am a newly graduated electrical and electronics engineer. I do
+            masters degree in informatics. Also, I improve my frontend
+            development skills.
           </p>
         </div>
       </div>

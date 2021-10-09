@@ -92,7 +92,7 @@ export default function Skills() {
           </strong>{" "}
           to apply with all my strength to
           <br />
-          develop myself in the following software languages.
+          develop myself in the following software languages and tools.
         </p>
       </div>
       <div className="grid md:grid-cols-4 grid-cols-2 gap-8 ">
