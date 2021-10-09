@@ -48,9 +48,9 @@ export default function Footer() {
   return (
     <div
       id="footer"
-      className="bg-brand-color p-8 flex flex-col md:gap-y-2 gap-y-4 "
+      className="bg-brand-color p-4 md:p-8 md:flex flex-col md:gap-y-2 gap-y-4 "
     >
-      <div className="flex flex-row items-end justify-end md:p-2 ">
+      <div className="flex flex-row items-end justify-end md:p-2">
         <a href="#header" className="flex flex-col  rounded-full ">
           <img
             className="animate-bounce-slow "
@@ -59,7 +59,7 @@ export default function Footer() {
         </a>
       </div>
       <div className="flex  flex-col justify-center items-center md:items-center gap-y-8 md:justify-center md:w-[1130px]  md:pt-12 p-2 mx-auto  text-primary-white ">
-        <div className="md:flex flex flex-row gap-x-8 md:scale-150 ">
+        <div className="flex items-center flex-row gap-x-8 md:scale-150">
           {link.map((x, i) => (
             <a
               href={x.link}
@@ -72,8 +72,9 @@ export default function Footer() {
           ))}
         </div>
 
-        <p>
-          <strong className="text-image-color-1">@2021 Serif Colakel,</strong>{" "}
+        <p className="flex text-center">
+          <strong className="text-image-color-1 ">@2021 Serif Colakel,</strong>
+          {"  "}
           All Rights Reserved.
         </p>
       </div>

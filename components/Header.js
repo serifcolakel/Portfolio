@@ -15,7 +15,7 @@ export default function Header() {
 
   return (
     <>
-      {show ? <ResponsiveMenu openMenu={setShow} /> : null}
+      {show ? <ResponsiveMenu openMenu={show} /> : null}
       <div id="header" className="bg-brand-color">
         <div className="flex  flex-row md:w-[1130px] mx-auto justify-between h-13 pl-4 md:h-20 items-center">
           <div className=" cursor-pointer">
@@ -31,9 +31,9 @@ export default function Header() {
             <div className="md:hidden w-12 h-12 flex items-center justify-center text-primary-white ">
               <button onClick={() => setShow(!show)}>
                 {show ? (
-                  <SiNixos className="scale-150 text-image-color-1" />
+                  <SiNixos className="scale-150 text-image-color-1 z-11" />
                 ) : (
-                  <GiHamburgerMenu className="scale-150" />
+                  <GiHamburgerMenu className="scale-150 " />
                 )}
               </button>
             </div>

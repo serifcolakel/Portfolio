@@ -14,7 +14,6 @@ export default function ContactMe() {
       </p>
     );
   };
-  console.log("process.env", process.env.NEXT_PUBLIC_SERVICE_KEY);
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
