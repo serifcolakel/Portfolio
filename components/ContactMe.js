@@ -2,36 +2,40 @@ import React, { useRef } from "react";
 import emailjs from "emailjs-com";
 
 export default function ContactMe() {
-  const [result, setResult] = React.useState(false);
+  const [result, setResult] = React.useState(null);
   const form = useRef();
 
-  const Result = () => {
+  const Result = ({ value }) => {
     return (
-      <p className="text-image-color-1">
-        Your Message has been succesfully sent.
+      <p className={value ? "text-primary-green" : "text-image-color-1"}>
+        {value
+          ? " Your Message has been succesfully sent."
+          : "Your message didn't sent."}
       </p>
     );
   };
-
+  console.log("process.env", process.env.NEXT_PUBLIC_SERVICE_KEY);
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_qf5csrj",
-        "template_oksti3f",
+        process.env.NEXT_PUBLIC_SERVICE_KEY,
+        process.env.NEXT_PUBLIC_TEMPLATE_KEY,
         e.target,
-        "user_TC7bbrLuldARLKujkttO9"
+        process.env.NEXT_PUBLIC_USER_KEY
       )
       .then(
         (result) => {
           console.log(result.text);
+          setResult(true);
         },
         (error) => {
           console.log(error.text);
+          setResult(false);
         }
       );
     e.target.reset();
-    setResult(true);
+    setTimeout(() => setResult(null), 3000);
   };
 
   return (
@@ -91,7 +95,7 @@ export default function ContactMe() {
             type="submit"
             value="Send"
           />
-          {result ? <Result /> : null}
+          {result !== null && <Result value={result} />}
         </form>
       </div>
     </div>
