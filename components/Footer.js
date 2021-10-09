@@ -1,4 +1,6 @@
 import React from "react";
+import { BiUpArrow } from "react-icons/bi";
+
 import {
   FaInstagram,
   FaFacebookF,
@@ -45,8 +47,19 @@ const link = [
 
 export default function Footer() {
   return (
-    <div className="bg-brand-color p-4">
-      <div className="flex  flex-col justify-center items-center md:items-center gap-y-8 md:justify-center md:w-[1130px] mx-auto md:pt-20 pt-8  text-primary-white ">
+    <div
+      id="footer"
+      className="bg-brand-color p-8 flex flex-col md:gap-y-2 gap-y-4 "
+    >
+      <div className="flex flex-row items-end justify-end md:p-2 ">
+        <a href="#header" className="flex flex-col  rounded-full ">
+          <img
+            className="animate-bounce-slow "
+            src="https://img.icons8.com/color/48/000000/double-up--v2.png"
+          />
+        </a>
+      </div>
+      <div className="flex  flex-col justify-center items-center md:items-center gap-y-8 md:justify-center md:w-[1130px]  md:pt-12 p-2 mx-auto  text-primary-white ">
         <div className="md:flex flex flex-row gap-x-8 md:scale-150 ">
           {link.map((x, i) => (
             <a
@@ -61,7 +74,8 @@ export default function Footer() {
         </div>
 
         <p>
-          <strong>@2021 Serif Colakel,</strong> All Rights Reserved.
+          <strong className="text-image-color-1">@2021 Serif Colakel,</strong>{" "}
+          All Rights Reserved.
         </p>
       </div>
     </div>
