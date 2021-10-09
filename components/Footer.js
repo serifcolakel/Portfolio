@@ -1,5 +1,4 @@
 import React from "react";
-import { BiUpArrow } from "react-icons/bi";
 
 import {
   FaInstagram,

@@ -5,7 +5,6 @@ module.exports = {
   theme: {
     animation: {
       "bounce-slow": "bounce 3s linear infinite",
-      // "ping-slow": "ping 3s linear infinite",
     },
 
     colors: {
