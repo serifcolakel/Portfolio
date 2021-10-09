@@ -1,8 +1,8 @@
 const pagesLink = [
-  { id: 1, link: "/aboutme", desc: "About Me" },
-  { id: 2, link: "/skills", desc: "Skills" },
-  { id: 3, link: "/projects", desc: "Projects" },
-  { id: 4, link: "/contactme", desc: "Contact Me" },
+  { id: 1, link: "#aboutme", desc: "About Me" },
+  { id: 2, link: "#skills", desc: "Skills" },
+  { id: 3, link: "#projects", desc: "Projects" },
+  { id: 4, link: "#contactme", desc: "Contact Me" },
 ];
 
 export default function ResponsiveMenu(props) {
