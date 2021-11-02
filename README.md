@@ -1,4 +1,4 @@
-Proje Vercel Linki : https://getir-clone-delta.vercel.app/
+Proje Vercel Linki :portfolio-serifcolakel.vercel.app
 
 # Next.js + Tailwind CSS Example
 
