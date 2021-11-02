@@ -1,4 +1,4 @@
-Proje Vercel Linki :portfolio-serifcolakel.vercel.app
+Proje Vercel Linki : https://portfolio-serifcolakel.vercel.app/
 
 # Next.js + Tailwind CSS Example
 
