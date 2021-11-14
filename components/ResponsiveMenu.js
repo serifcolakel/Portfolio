@@ -1,5 +1,4 @@
-import { useState } from "react";
-import Header from "./Header";
+import { useState, useEffect } from "react";
 
 const pagesLink = [
   { id: 1, link: "#aboutme", desc: "About Me" },
@@ -9,11 +8,10 @@ const pagesLink = [
 ];
 export default function ResponsiveMenu(props) {
   const [hide, setHide] = useState(props.openMenu);
-
   return (
     <>
       {hide ? (
-        <div className="fixed w-screen h-full bg-brand-color p-10 ">
+        <div className="fixed top-0 right-0 left-0 bottom-0 w-screen h-full bg-brand-color p-10 z-0">
           <div className=" gap-y-2 text-primary-white flex h-full">
             <div className="flex  flex-col justify-between ">
               <div className="flex flex-col gap-y-4 ">
@@ -22,9 +20,7 @@ export default function ResponsiveMenu(props) {
                     href={x.link}
                     key={x.id}
                     rel="noreferrer"
-                    onClick={() => {
-                      setHide(false);
-                    }}
+                    onClick={() => setHide(!hide)}
                   >
                     <span className="hover:text-image-color-1 font-bold text-xl">
                       {x.desc}
@@ -33,7 +29,7 @@ export default function ResponsiveMenu(props) {
                 ))}
               </div>
 
-              <div className=" cursor-pointer flex flex-col justify-end ">
+              <div className="flex flex-col justify-end ">
                 <a
                   href="http://getir-clone-delta.vercel.app/"
                   target="_blank"

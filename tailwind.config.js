@@ -8,11 +8,14 @@ module.exports = {
     },
 
     colors: {
+      "et-top": "#e0e0e0",
+      "et-bottom1": "#f2f2f2",
       "brand-yellow": "#FFFF00",
       "brand-color": "#000000",
       "brand-gray": "#efefef",
       "background-aboutme": "#8B8B8B",
       "blue-background": "#2941ab",
+      "button-primary": "#86d4f5",
       "def-text-color": "#1a0413",
       "primary-brand-color": "#5d3ebc",
       "primary-white": "#FFFFFF",
@@ -27,6 +30,8 @@ module.exports = {
         "linear-gradient(75deg, rgba(251,91,15,1) 32%, rgba(17,17,17,1) 0%)",
       bgcontact:
         "linear-gradient(110deg, rgba(17,17,17,1) 58%, rgba(251,91,15,1) 58%)",
+      bgprojects:
+        "linear-gradient(35deg,rgba(17,17,17,0.7) 10%,rgba(251,91,15,0.7)  90%)",
       bgskills:
         "linear-gradient(35deg,rgba(251,91,15,0.7) 10%, rgba(17,17,17,0.7) 90%)",
       "free-bg":

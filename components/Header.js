@@ -1,22 +1,22 @@
 import { GiHamburgerMenu } from "react-icons/gi";
 import ResponsiveMenu from "./ResponsiveMenu";
-import { useState } from "react";
 import { SiNixos } from "react-icons/si";
+import { MenuState } from "../pages/index";
+import { useContext, useState, useEffect } from "react";
 
 const pagesLink = [
-  { id: 1, link: "#footer", desc: "About Me" },
-  { id: 2, link: "#skills", desc: "Skills" },
-  { id: 3, link: "#projects", desc: "Projects" },
-  { id: 4, link: "#contactme", desc: "Contact Me" },
+  { id: 1, link: "#skills", desc: "Skills" },
+  { id: 2, link: "#projects", desc: "Projects" },
+  { id: 3, link: "#contactme", desc: "Contact Me" },
 ];
 
 export default function Header() {
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(useContext(MenuState));
 
   return (
     <>
       {show ? <ResponsiveMenu openMenu={show} /> : null}
-      <div id="header" className="bg-brand-color">
+      <div id="header" className="bg-brand-color ">
         <div className="flex  flex-row md:w-[1130px] mx-auto justify-between h-13 pl-4 md:h-20 items-center">
           <div className=" cursor-pointer">
             <a href="/" rel="noreferrer">
@@ -27,13 +27,13 @@ export default function Header() {
               />
             </a>
           </div>
-          <div className="md:flex text-primary-white z-1 ">
+          <div className="md:flex text-primary-white ">
             <div className="md:hidden w-12 h-12 flex items-center justify-center text-primary-white ">
               <button onClick={() => setShow(!show)}>
                 {show ? (
-                  <SiNixos className="scale-150 text-image-color-1 z-11" />
+                  <SiNixos className="scale-150 text-image-color-1" />
                 ) : (
-                  <GiHamburgerMenu className="scale-150 " />
+                  <GiHamburgerMenu className="scale-150" />
                 )}
               </button>
             </div>
