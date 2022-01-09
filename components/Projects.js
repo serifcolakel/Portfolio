@@ -1,5 +1,11 @@
 import React from "react";
-import { SiNextdotjs, SiHeroku, SiReact, SiTailwindcss } from "react-icons/si";
+import {
+  SiHeroku,
+  SiReact,
+  SiTailwindcss,
+  SiNextdotjs,
+  SiFirebase,
+} from "react-icons/si";
 
 const projects = [
   {
@@ -20,7 +26,27 @@ const projects = [
     demoUrl: "https://spotify-clone-rosy.vercel.app/",
     useTech: [{ name: SiReact }, { name: SiTailwindcss }],
   },
+  {
+    id: 3,
+
+    title: "Tatilbudur.com Clone",
+    imgUrl: "https://i.hizliresim.com/cutp73u.png",
+    description:
+      "Bu projemde tatilbudur.com tarafından front-end hiring challenge katıldım ve ilk 3'e girdim fakat iş olanağından yararlanamadım.",
+    demoUrl: "https://tatilbudur-serifcolakel.vercel.app/",
+    useTech: [{ name: SiNextdotjs }, { name: SiTailwindcss }],
+  },
+  {
+    id: 4,
+    title: "Messenger App",
+    imgUrl: "https://i.hizliresim.com/luknil9.png",
+    description:
+      "Bu projemde ise messenger app'un klonunu ReactJS ve Firebase kullanarak geliştirdim.",
+    demoUrl: "https://messenger-app-serifcolakel.vercel.app/",
+    useTech: [{ name: SiReact }, { name: SiFirebase }],
+  },
 ];
+//
 export default function Projects() {
   return (
     <div
