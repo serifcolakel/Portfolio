@@ -11,7 +11,7 @@ const pagesLink = [
   {
     id: 4,
     link: "https://cvtopdf-serifcolakel.vercel.app/",
-    desc: "Go to Resume",
+    desc: "Resume",
   },
 ];
 
