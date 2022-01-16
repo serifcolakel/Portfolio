@@ -8,6 +8,11 @@ const pagesLink = [
   { id: 1, link: "#skills", desc: "Skills" },
   { id: 2, link: "#projects", desc: "Projects" },
   { id: 3, link: "#contactme", desc: "Contact Me" },
+  {
+    id: 4,
+    link: "https://cvtopdf-serifcolakel.vercel.app/",
+    desc: "Go to Resume",
+  },
 ];
 
 export default function Header() {
