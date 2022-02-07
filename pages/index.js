@@ -8,7 +8,6 @@ import Projects from "./../components/Projects";
 import React, { useState } from "react";
 
 export const MenuState = React.createContext(false);
-
 export default function Main() {
   const [isOpen, setIsOpen] = useState(false);
 

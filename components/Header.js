@@ -2,7 +2,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import ResponsiveMenu from "./ResponsiveMenu";
 import { SiNixos } from "react-icons/si";
 import { MenuState } from "../pages/index";
-import { useContext, useState, useEffect } from "react";
+import { useContext, useState } from "react";
 
 const pagesLink = [
   { id: 1, link: "#skills", desc: "Skills" },

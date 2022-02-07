@@ -1,10 +1,13 @@
 import React from "react";
+import { FaSass } from "react-icons/fa";
 import {
   SiHeroku,
   SiReact,
   SiTailwindcss,
   SiNextdotjs,
   SiFirebase,
+  SiVercel,
+  SiMongodb,
 } from "react-icons/si";
 
 const projects = [
@@ -15,7 +18,12 @@ const projects = [
     description:
       "Bu projemde getir.com'un klonunu ReactJS ve TailwinCSS kullanarak geliştirdim.",
     demoUrl: "https://getir-clone-delta.vercel.app/",
-    useTech: [{ name: SiReact }, { name: SiTailwindcss }, { name: SiHeroku }],
+    useTech: [
+      { name: SiReact },
+      { name: SiTailwindcss },
+      { name: SiHeroku },
+      { name: SiVercel },
+    ],
   },
   {
     id: 2,
@@ -24,17 +32,20 @@ const projects = [
     description:
       "Bu projemde spotify.com'un klonunu ReactJS ve TailwinCSS kullanarak geliştirdim.",
     demoUrl: "https://spotify-clone-rosy.vercel.app/",
-    useTech: [{ name: SiReact }, { name: SiTailwindcss }],
+    useTech: [{ name: SiReact }, { name: SiTailwindcss }, { name: SiVercel }],
   },
   {
     id: 3,
-
     title: "Tatilbudur.com Clone",
     imgUrl: "https://i.hizliresim.com/cutp73u.png",
     description:
       "Bu projemde tatilbudur.com tarafından front-end hiring challenge katıldım ve ilk 3'e girdim fakat iş olanağından yararlanamadım.",
     demoUrl: "https://tatilbudur-serifcolakel.vercel.app/",
-    useTech: [{ name: SiNextdotjs }, { name: SiTailwindcss }],
+    useTech: [
+      { name: SiNextdotjs },
+      { name: SiTailwindcss },
+      { name: SiVercel },
+    ],
   },
   {
     id: 4,
@@ -43,7 +54,35 @@ const projects = [
     description:
       "Bu projemde ise messenger app'un klonunu ReactJS ve Firebase kullanarak geliştirdim.",
     demoUrl: "https://messenger-app-serifcolakel.vercel.app/",
-    useTech: [{ name: SiReact }, { name: SiFirebase }],
+    useTech: [{ name: SiReact }, { name: SiFirebase }, { name: SiVercel }],
+  },
+  {
+    id: 5,
+    title: "Dashboard App",
+    imgUrl: "https://i.hizliresim.com/496swps.jpg",
+    description:
+      "Bu projemde ise messenger app'un klonunu NextJs ve TailwindCSS kullanarak geliştirdim. serifcolakel.com ve 1234 ile giriş yapabilirsiniz.",
+    demoUrl: "https://dashboard-serifcolakel.vercel.app/",
+    useTech: [
+      { name: SiNextdotjs },
+      { name: SiTailwindcss },
+      { name: SiVercel },
+    ],
+  },
+  {
+    id: 6,
+    title: "Todo App",
+    imgUrl: "https://i.hizliresim.com/73ov4ud.jpg",
+    description:
+      "Bu projemde ise messenger app'un klonunu ReactJS ve Firebase kullanarak geliştirdim.",
+    demoUrl: "https://todo-serifcolakel.vercel.app/",
+    useTech: [
+      { name: SiNextdotjs },
+      { name: FaSass },
+      { name: SiVercel },
+      { name: SiHeroku },
+      { name: SiMongodb },
+    ],
   },
 ];
 //
@@ -79,8 +118,11 @@ export default function Projects() {
               Project Demo
             </a>
             <div className="flex flex-row gap-x-4">
-              {project.useTech.map((tech) => (
-                <tech.name className="w-12 h-12 p-2 hover:text-image-color-1 text-primary-brand-color" />
+              {project.useTech.map((tech, i) => (
+                <tech.name
+                  key={i}
+                  className="w-12 h-12 p-2 hover:text-image-color-1 text-primary-brand-color"
+                />
               ))}
             </div>
           </div>
