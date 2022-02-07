@@ -16,7 +16,7 @@ const projects = [
     title: "Getir-Clone",
     imgUrl: "https://i.hizliresim.com/tar9sfw.png",
     description:
-      "Bu projemde getir.com'un klonunu ReactJS ve TailwinCSS kullanarak geliştirdim.",
+      "In this project, I developed a clone of getir.com using React JS and Tailwind CSS.",
     demoUrl: "https://getir-clone-delta.vercel.app/",
     useTech: [
       { name: SiReact },
@@ -30,7 +30,7 @@ const projects = [
     title: "Spotify-Clone",
     imgUrl: "https://i.hizliresim.com/r4sqtdi.png",
     description:
-      "Bu projemde spotify.com'un klonunu ReactJS ve TailwinCSS kullanarak geliştirdim.",
+      "In this project, I developed a clone of spotify.com using React JS and Tailwind CSS.",
     demoUrl: "https://spotify-clone-rosy.vercel.app/",
     useTech: [{ name: SiReact }, { name: SiTailwindcss }, { name: SiVercel }],
   },
@@ -39,7 +39,7 @@ const projects = [
     title: "Tatilbudur.com Clone",
     imgUrl: "https://i.hizliresim.com/cutp73u.png",
     description:
-      "Bu projemde tatilbudur.com tarafından front-end hiring challenge katıldım ve ilk 3'e girdim ve 2.oldum",
+      "In this project, I participated in the front-end hiring challenge by Tatilbudur.com and entered the top 3 and came in 2nd.",
     demoUrl: "https://tatilbudur-serifcolakel.vercel.app/",
     useTech: [
       { name: SiNextdotjs },
@@ -52,7 +52,7 @@ const projects = [
     title: "Messenger App",
     imgUrl: "https://i.hizliresim.com/luknil9.png",
     description:
-      "Bu projemde ise messenger app'un klonunu ReactJS ve Firebase kullanarak geliştirdim.",
+      "In this project, I developed a clone of the messaging application using React JS and Firebase.",
     demoUrl: "https://messenger-app-serifcolakel.vercel.app/",
     useTech: [{ name: SiReact }, { name: SiFirebase }, { name: SiVercel }],
   },
@@ -61,7 +61,7 @@ const projects = [
     title: "Dashboard App",
     imgUrl: "https://i.hizliresim.com/496swps.jpg",
     description:
-      "Bu projemde ise Dashboard tasarımını ChartJS, NextJs ve TailwindCSS kullanarak geliştirdim. serifcolakel.com ve 1234 ile giriş yapabilirsiniz.",
+      "In this project, I developed the Dashboard design using ChartJS, NextJs and TailwindCSS. You can login with serifcolakel@gmail.com and 1234.",
     demoUrl: "https://dashboard-serifcolakel.vercel.app/",
     useTech: [
       { name: SiNextdotjs },
@@ -74,7 +74,7 @@ const projects = [
     title: "Todo App",
     imgUrl: "https://i.hizliresim.com/73ov4ud.jpg",
     description:
-      "Bu projemde ise Todo App'i NextJS, MongoDB, SASS, Vercel ve Heroku kullanarak geliştirdim.",
+      "In this project, I developed the Todo App, which was created by full stack developers at the beginning, using NextJS, MongoDB, SASS, Vercel and Heroku.",
     demoUrl: "https://todo-serifcolakel.vercel.app/",
     useTech: [
       { name: SiNextdotjs },
