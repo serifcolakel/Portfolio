@@ -61,7 +61,7 @@ const projects = [
     title: "Dashboard App",
     imgUrl: "https://i.hizliresim.com/496swps.jpg",
     description:
-      "Bu projemde ise messenger app'un klonunu NextJs ve TailwindCSS kullanarak geliştirdim. serifcolakel.com ve 1234 ile giriş yapabilirsiniz.",
+      "Bu projemde ise Dashboard tasarımını ChartJS, NextJs ve TailwindCSS kullanarak geliştirdim. serifcolakel.com ve 1234 ile giriş yapabilirsiniz.",
     demoUrl: "https://dashboard-serifcolakel.vercel.app/",
     useTech: [
       { name: SiNextdotjs },
