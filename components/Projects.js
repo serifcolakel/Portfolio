@@ -39,7 +39,7 @@ const projects = [
     title: "Tatilbudur.com Clone",
     imgUrl: "https://i.hizliresim.com/cutp73u.png",
     description:
-      "Bu projemde tatilbudur.com tarafından front-end hiring challenge katıldım ve ilk 3'e girdim fakat iş olanağından yararlanamadım.",
+      "Bu projemde tatilbudur.com tarafından front-end hiring challenge katıldım ve ilk 3'e girdim ve 2.oldum",
     demoUrl: "https://tatilbudur-serifcolakel.vercel.app/",
     useTech: [
       { name: SiNextdotjs },
