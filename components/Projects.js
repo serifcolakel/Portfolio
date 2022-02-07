@@ -74,7 +74,7 @@ const projects = [
     title: "Todo App",
     imgUrl: "https://i.hizliresim.com/73ov4ud.jpg",
     description:
-      "Bu projemde ise messenger app'un klonunu ReactJS ve Firebase kullanarak geliştirdim.",
+      "Bu projemde ise Todo App'i NextJS, MongoDB, SASS, Vercel ve Heroku kullanarak geliştirdim.",
     demoUrl: "https://todo-serifcolakel.vercel.app/",
     useTech: [
       { name: SiNextdotjs },
