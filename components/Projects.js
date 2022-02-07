@@ -90,8 +90,11 @@ export default function Projects() {
   return (
     <div
       id="projects"
-      className="flex items-center justify-center bg-bgprojects p-8"
+      className="flex flex-col gap-y-4 items-center justify-center bg-bgprojects p-8"
     >
+      <h1 id="skills" className="text-3xl font-extrabold text-black">
+        Projects
+      </h1>
       <div className="grid md:grid-cols-2 md:w-[1130px] gap-y-4 md:gap-y-8 gap-x-2">
         {projects.map((project) => (
           <div
