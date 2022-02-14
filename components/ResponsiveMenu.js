@@ -6,12 +6,12 @@ const pagesLink = [
   { id: 3, link: "#projects", desc: "Projects" },
   { id: 4, link: "#contactme", desc: "Contact Me" },
 ];
-export default function ResponsiveMenu(props) {
-  const [hide, setHide] = useState(props.openMenu);
+export default function ResponsiveMenu({ openMenu }) {
+  const [hide, setHide] = useState(openMenu);
   return (
     <>
       {hide ? (
-        <div className="fixed top-0 right-0 left-0 bottom-0 w-screen h-full bg-brand-color p-10 z-0">
+        <div className="fixed top-0 right-0 left-0 bottom-0 w-screen h-[100vh] bg-brand-color p-10 z-50">
           <div className=" gap-y-2 text-primary-white flex h-full">
             <div className="flex  flex-col justify-between ">
               <div className="flex flex-col gap-y-4 ">

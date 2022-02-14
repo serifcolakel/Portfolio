@@ -1,5 +1,5 @@
 import React from "react";
-import { FaSass } from "react-icons/fa";
+import { FaSass, FaShopify } from "react-icons/fa";
 import {
   SiHeroku,
   SiReact,
@@ -84,6 +84,20 @@ const projects = [
       { name: SiMongodb },
     ],
   },
+  {
+    id: 7,
+    title: "Shopify App",
+    imgUrl: "https://i.hizliresim.com/3sf9j24.jpg",
+    description:
+      "I developed Shopify App using NextJS, TailwindCSS, Shopify API.",
+    demoUrl: "https://serif-shopify.vercel.app/",
+    useTech: [
+      { name: SiNextdotjs },
+      { name: SiVercel },
+      { name: SiTailwindcss },
+      { name: FaShopify },
+    ],
+  }
 ];
 //
 export default function Projects() {

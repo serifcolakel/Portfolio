@@ -103,7 +103,7 @@ export default function Skills() {
           >
             <img
               src={x.url}
-              className="md:w-[120px] md:h-[120px] w-[50px] h-[50px] m-4 md:p-2"
+              className="md:w-[120px] md:h-[120px] object-contain w-[50px] h-[50px] m-4 md:p-2"
             />
             <p className="truncate font-extrabold pb-3">{x.title}</p>
           </div>
