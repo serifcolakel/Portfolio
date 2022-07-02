@@ -8,6 +8,7 @@ import {
   SiFirebase,
   SiVercel,
   SiMongodb,
+  SiTypescript,
 } from "react-icons/si";
 
 const projects = [
@@ -97,7 +98,34 @@ const projects = [
       { name: SiTailwindcss },
       { name: FaShopify },
     ],
-  }
+  },
+  {
+    id: 8,
+    title: "Find Event",
+    imgUrl: "https://i.hizliresim.com/9ogyjkw.png",
+    description:
+      "In this project, I participated in the hiring challenge competition created by etstur.",
+    demoUrl: "http://etstur-findevent.vercel.app/",
+    useTech: [
+      { name: SiNextdotjs },
+      { name: SiTailwindcss },
+      { name: SiVercel },
+    ],
+  },
+  {
+    id: 9,
+    title: "Yusuf Oztel - Portfolio",
+    imgUrl: "https://i.hizliresim.com/c8q4t13.png",
+    description:
+      "In this project, I developed the portfolio of Yusuf Oztel using NextJS, TailwindCSS, TypeScript and Vercel.",
+    demoUrl: "https://yusuf-oztel.vercel.app/",
+    useTech: [
+      { name: SiNextdotjs },
+      { name: SiTailwindcss },
+      { name: SiVercel },
+      { name: SiTypescript },
+    ],
+  },
 ];
 //
 export default function Projects() {

@@ -6,6 +6,18 @@ const data = [
     title: "JavaScript",
   },
   {
+    id: "7",
+    url: "https://seeklogo.com/images/R/react-logo-7B3CE81517-seeklogo.com.png",
+    description: "",
+    title: "React JS",
+  },
+  {
+    id: "8",
+    url: "https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png",
+    description: "",
+    title: "Next JS",
+  },
+  {
     id: "2",
     url: "https://seeklogo.com/images/C/css3-logo-8724075274-seeklogo.com.png",
     description: "",
@@ -24,6 +36,26 @@ const data = [
     description: "",
     title: "Bootstrap",
   },
+
+  {
+    id: "6",
+    url: "https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png",
+    description: "",
+    title: "Tailwind CSS",
+  },
+
+  {
+    id: "13",
+    url: "https://seeklogo.com/images/S/sass-logo-E41E7734A8-seeklogo.com.png",
+    description: "",
+    title: "Sass",
+  },
+  {
+    id: "14",
+    url: "https://seeklogo.com/images/A/ant-design-logo-EAB6B3D5D9-seeklogo.com.png",
+    description: "",
+    title: "Ant Design",
+  },
   {
     id: "5",
     url: "https://seeklogo.com/images/M/material-ui-logo-5BDCB9BA8F-seeklogo.com.png",
@@ -31,47 +63,16 @@ const data = [
     title: "Material UI",
   },
   {
-    id: "6",
-    url: "https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png",
+    id: "15",
+    url: "https://seeklogo.com/images/H/headless-ui-logo-034B045C5C-seeklogo.com.png",
     description: "",
-    title: "Tailwind CSS",
+    title: "Headless UI",
   },
   {
-    id: "7",
-    url: "https://seeklogo.com/images/R/react-logo-7B3CE81517-seeklogo.com.png",
+    id: "16",
+    url: "https://seeklogo.com/images/P/primereact-logo-24D1113A03-seeklogo.com.png",
     description: "",
-    title: "React JS",
-  },
-  {
-    id: "8",
-    url: "https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png",
-    description: "",
-    title: "Next JS",
-  },
-
-  {
-    id: "9",
-    url: "https://seeklogo.com/images/G/github-logo-5F384D0265-seeklogo.com.png",
-    description: "",
-    title: "GitHub",
-  },
-  {
-    id: "10",
-    url: "https://seeklogo.com/images/M/matlab-logo-AE6C96A5DD-seeklogo.com.png",
-    description: "",
-    title: "MatLab",
-  },
-  {
-    id: "11",
-    url: "https://seeklogo.com/images/P/python-logo-A32636CAA3-seeklogo.com.png",
-    description: "",
-    title: "Pyton",
-  },
-  {
-    id: "12",
-    url: "https://seeklogo.com/images/C/c-logo-1B1817C041-seeklogo.com.png",
-    description: "",
-    title: "C++",
+    title: "Prime React",
   },
 ];
 

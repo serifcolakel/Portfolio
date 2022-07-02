@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import emailjs from "emailjs-com";
 
 export default function ContactMe() {
-  const [result, setResult] = React.useState(null);
+  const [result, setResult] = React.useState(false);
   const form = useRef();
 
   const Result = ({ value }) => {
@@ -90,11 +90,12 @@ export default function ContactMe() {
             className="md:w-[300px] w-full border border-back w-fullground-aboutme rounded-lg p-2"
           />
           <input
-            className="md:w-[300px] w-full h-[40px] rounded-2xl hover:bg-image-color-1 text-primary-white bg-brand-color cursor-pointer"
+            disabled={!result}
+            className="md:w-[300px] disabled:cursor-not-allowed w-full h-[40px] rounded-2xl hover:bg-image-color-1 text-primary-white bg-brand-color cursor-pointer"
             type="submit"
             value="Send"
           />
-          {result !== null && <Result value={result} />}
+          {result && <Result value={result} />}
         </form>
       </div>
     </div>
