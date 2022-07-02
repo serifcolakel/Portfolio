@@ -6,6 +6,12 @@ const data = [
     title: "JavaScript",
   },
   {
+    id: "2",
+    url: "https://seeklogo.com/images/T/typescript-logo-B29A3F462D-seeklogo.com.png",
+    description: "",
+    title: "TypeScript",
+  },
+  {
     id: "7",
     url: "https://seeklogo.com/images/R/react-logo-7B3CE81517-seeklogo.com.png",
     description: "",
