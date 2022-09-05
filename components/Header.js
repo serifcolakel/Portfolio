@@ -10,7 +10,7 @@ const pagesLink = [
   { id: 3, link: "#contactme", desc: "Contact Me" },
   {
     id: 4,
-    link: "https://cvtopdf-serifcolakel.vercel.app/",
+    link: "https://cvtopdf-serifcolakel.vercel.app/serifcolakel",
     desc: "Resume",
   },
 ];

@@ -19,12 +19,18 @@ const data = [
   },
   {
     id: "8",
+    url: "https://seeklogo.com/images/R/react-logo-7B3CE81517-seeklogo.com.png",
+    description: "",
+    title: "React Native",
+  },
+  {
+    id: "88",
     url: "https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png",
     description: "",
     title: "Next JS",
   },
   {
-    id: "2",
+    id: "22",
     url: "https://seeklogo.com/images/C/css3-logo-8724075274-seeklogo.com.png",
     description: "",
     title: "CSS",
@@ -63,7 +69,7 @@ const data = [
     title: "Ant Design",
   },
   {
-    id: "5",
+    id: "55",
     url: "https://seeklogo.com/images/M/material-ui-logo-5BDCB9BA8F-seeklogo.com.png",
     description: "",
     title: "Material UI",

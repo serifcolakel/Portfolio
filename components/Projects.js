@@ -126,6 +126,15 @@ const projects = [
       { name: SiTypescript },
     ],
   },
+  {
+    id: 10,
+    title: "Getir Mobile App /with React Native",
+    imgUrl: "https://i.hizliresim.com/rkqinr7.jpg",
+    description:
+      "In this project, I developed the fetch mobile application using react-native, redux-toolkit, react-native-maps & typescript. You can review the codes on my Github account and review the details of the work by watching the video I uploaded on youtube.",
+    demoUrl: "https://www.youtube.com/watch?v=m5N7z8EUGUo",
+    useTech: [{ name: SiReact }, { name: SiTypescript }],
+  },
 ];
 //
 export default function Projects() {
@@ -151,7 +160,7 @@ export default function Projects() {
               <img
                 src={project.imgUrl}
                 alt="project"
-                className="object-scale-down hover:opacity-70"
+                className="object-contain md:h-[400px] hover:opacity-70 "
               />
             </a>
             <p className="p-2 text-center">{project.description}</p>

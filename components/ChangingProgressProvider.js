@@ -1,5 +1,5 @@
 import React from "react";
-rfc;
+
 class ChangingProgressProvider extends React.Component {
   static defaultProps = {
     interval: 1000,
