@@ -15,9 +15,9 @@ export default function Home() {
         <div className="text-primary-white  items-start flex flex-col gap-y-4">
           <p className="text-xl">HI THERE !</p>
           <h2 className="md:text-4xl text-2xl font-bold">
-            I'M AN{" "}
+            I'm an{" "}
             <strong className="text-image-color-1 ">
-              ELECTRICAL and {" "}
+              Electric and {" "}
               <strong className="text-primary-white md:text-image-color-1">
                  Software Engineer
               </strong>
