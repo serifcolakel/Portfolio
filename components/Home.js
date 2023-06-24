@@ -17,9 +17,9 @@ export default function Home() {
           <h2 className="md:text-4xl text-2xl font-bold">
             I'M AN{" "}
             <strong className="text-image-color-1 ">
-              ELECTRICAL{" "}
+              ELECTRICAL and {" "}
               <strong className="text-primary-white md:text-image-color-1">
-                ENGINEERING
+                 Software Engineer
               </strong>
             </strong>
           </h2>
